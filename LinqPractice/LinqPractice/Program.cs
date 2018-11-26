@@ -10,6 +10,10 @@ namespace LinqPractice
     {
         static void Main(string[] args)
         {
+            Vagabond.Run();
+            Console.WriteLine("\n\nTâche achévee");
+            Console.WriteLine("Appuyez sur une touché pour continuer...");
+            Console.ReadKey();
         }
     }
 }
