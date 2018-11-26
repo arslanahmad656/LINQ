@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 20.875, 52.75" name="SeaModel">
+  <DataContextMoniker Name="/SeaModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="59cbd420-6893-47ec-985f-c0f49d3fb61d" absoluteBounds="0.75, 2.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SeaModelDataContext/__MigrationHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68c66fdd-ec65-4cbf-8285-873288290ec0" absoluteBounds="0.765, 3.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fa03401-852e-4ae2-b714-731880fe7b6a" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetVirtualRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37ff0aa7-2171-4a7f-a8de-cbda59c25cae" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="555145c9-2256-45ab-b1df-71004dbe52dd" absoluteBounds="9.25, 25.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetAccountant" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2888d865-5449-421c-b073-7478bec756d9" absoluteBounds="9.265, 26.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="378368dd-342f-4726-a1f0-df3030ed3ade" absoluteBounds="9, 20.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetAssessment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6619a830-5c6d-4b92-a58f-592cfc8930d6" absoluteBounds="9.015, 20.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc0f7137-88ae-4f3f-bbb0-b178ca0b5984" absoluteBounds="6.25, 18, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetAssessmentType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97eb8443-cb62-4c77-9e35-499352f53f25" absoluteBounds="6.265, 18.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e845baca-15b0-47f1-a26c-474694bf1bf6" absoluteBounds="9, 35.625, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetBranch_Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="551478ad-db51-449c-9433-1a7a994508f5" absoluteBounds="9.015, 36.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a004d1d-a074-4934-8673-a98946296470" absoluteBounds="9, 28.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetBranch_Class" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9362cb8a-0189-49e3-ad05-56d137491ed4" absoluteBounds="9.015, 29.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" absoluteBounds="12.75, 26.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c3635a33-24e9-4012-bfc7-940f03e1f567" absoluteBounds="12.765, 26.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" absoluteBounds="6.25, 42, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetBranch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32481eff-1f3f-45d9-a65a-22e21a2c4a55" absoluteBounds="6.265, 42.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42420649-2679-4f75-9643-d9abf8d17c31" absoluteBounds="11.75, 29.375, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetClass_Course" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a20745dc-9378-4da9-9949-ebd93b15c336" absoluteBounds="11.765, 29.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="501594d3-cf98-417a-a6cd-9980de095e58" absoluteBounds="6.25, 15.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetClass" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9db51313-58f0-4f0c-809a-50429d5e6b01" absoluteBounds="6.265, 15.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f8b6f80-53d3-4634-b1d4-ec30df840ae4" absoluteBounds="11.75, 32.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetCoursePackage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="575bc511-2644-4ebd-9391-fec0e32ef8b2" absoluteBounds="11.765, 33.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" absoluteBounds="9, 32.5, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetCourse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c65d1f9c-70ef-413b-a900-ab9ad51fe99a" absoluteBounds="9.015, 32.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f04fa8c-f346-4335-add7-e7e691e760a0" absoluteBounds="6.25, 32.5, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="133c2c61-bbad-461c-abdb-ea02b7bfab65" absoluteBounds="6.265, 32.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d1a1a930-c0dc-491d-af43-6b77f052801a" absoluteBounds="9, 42, 2, 6.0015283203125023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="119ce227-268c-45a0-bec3-5260f55e0ffd" absoluteBounds="9.015, 42.46, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3783fc75-c092-4416-9677-f8980ef713ac" absoluteBounds="6.25, 45.5, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetEmployeePosition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1d625d3-4d85-4bdd-8a6d-bc7bc9d25abf" absoluteBounds="6.265, 45.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2f8362ce-660a-4ba5-82a1-2c05415b8d1d" absoluteBounds="6.25, 47.375, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetGender" />
+      <nestedChildShapes>
+        <elementListCompartment Id="534b89d7-fb57-4c5f-925e-321c25ff8d8c" absoluteBounds="6.265, 47.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3b714b50-2f8e-49e6-8687-939580d0b419" absoluteBounds="6.25, 39.5, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36fadb8b-accd-4592-b8fa-3a9f04476e52" absoluteBounds="6.265, 39.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1ec682b-0b9f-4a7e-8b18-061c52c42294" absoluteBounds="6.25, 49.375, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetNationality" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f05921b-427f-4829-b3e2-cef8a69a3640" absoluteBounds="6.265, 49.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a7d54eaa-cc05-488d-83d9-799481ef38c8" absoluteBounds="9, 15.625, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetPackage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="413f9a58-778d-4008-aa5c-72aef5a1df45" absoluteBounds="9.015, 16.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="465bf610-333d-4331-9c22-188f6bd1210a" absoluteBounds="6.25, 34.875, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetParent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04d80add-6b64-4ada-aaa7-5e7a940e1349" absoluteBounds="6.265, 35.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc15e8ad-f92f-4adc-b2c1-6cdd2d6d8e3f" absoluteBounds="6.25, 51.25, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetReligion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39269330-0413-4f36-87ac-9dc48cb863bf" absoluteBounds="6.265, 51.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a7685b91-fbce-41ad-821b-222730347303" absoluteBounds="3.5, 26, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fbde5bad-2137-4c73-bb41-4dd044a0cafe" absoluteBounds="3.515, 26.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="64718ae9-621e-45ea-991e-cf08c49f2fa8" absoluteBounds="10, 18.25, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3055afcf-f52a-4442-a595-fa733724b2da" absoluteBounds="10.015, 18.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2d445cc-35e0-4bde-9b38-70934d515661" absoluteBounds="3.5, 17.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetSession" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0c44755-a972-45ab-8143-e5dc3f1773ed" absoluteBounds="3.515, 18.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6548f9a2-683a-40e4-9eaf-4b0afd80e422" absoluteBounds="0.75, 25.5, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb8c7187-8ab4-4b9d-9b0e-6ba8fcf8af86" absoluteBounds="0.765, 25.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c56ed81a-3497-4b76-8948-a25101ce0807" absoluteBounds="15.5, 28.25, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStudent_Enrollment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="af84117b-fb89-494e-b236-02bc8139238c" absoluteBounds="15.515, 28.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="375721c9-c80e-4970-bae3-cc1e7db58138" absoluteBounds="18.5, 28.25, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStudent_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd055b5d-1296-4c88-9cbe-6dba0514abaa" absoluteBounds="18.515, 28.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23c0a1a0-1578-4cb5-8e38-8697617ad847" absoluteBounds="18.25, 22.25, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStudentAssessment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7b491a7-2e7a-41ff-9bdf-f21cab7c4bed" absoluteBounds="18.265, 22.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" absoluteBounds="9, 38.25, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStudent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a48d338-cbf3-4d4a-b14d-8e9a2c492836" absoluteBounds="9.015, 38.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68737e53-7b72-4c79-8677-d439f670aeb6" absoluteBounds="15.5, 32.625, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetStudentSection" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9cfd3f9-abb2-4cff-8381-544c96746e9d" absoluteBounds="15.515, 33.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1e99057a-a5da-4775-8a2c-1bd5e47a9336" absoluteBounds="15.5, 25.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetTeacher_Enrollment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="119778d2-dea2-4324-962b-4c212ecad92a" absoluteBounds="15.515, 26.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7deac230-3512-4253-ab73-0aef7eabe313" absoluteBounds="18.5, 25.5, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetTeacher_History" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03b9d43f-6abd-4b16-9f81-ea356b655db2" absoluteBounds="18.515, 25.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a82ebac2-9bf0-4dea-928a-14e3c3d6a703" absoluteBounds="11.75, 37.625, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetTeacher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebf44c19-f4fa-4d4a-892a-6a94a88cbad2" absoluteBounds="11.765, 38.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aef89a3b-ab9c-46c6-b731-08fd54b121cb" absoluteBounds="6.25, 20.625, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetTerm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a663c879-5629-4227-b882-f10ed15c4463" absoluteBounds="6.265, 21.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfc950cd-5591-4d4f-ad32-cbce58c94b5b" absoluteBounds="6.25, 37.125, 2, 1.5785953776041595">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetUserClaim" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1036744-640d-4384-ac3e-2f5dbf6670f2" absoluteBounds="6.265, 37.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f9be86a-6622-402f-bb29-19b9ca346042" absoluteBounds="6.25, 25.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetUserLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8dd8e9f-cd63-4fee-a9b6-65e5c00d91f0" absoluteBounds="6.265, 26.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59c56538-0eae-4d13-9271-0cfa0f4eb14c" absoluteBounds="6.25, 30, 2, 1.1939925130208309">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetUserRole" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf88cf6c-c866-45fa-9d01-007c2f8db212" absoluteBounds="6.265, 30.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" absoluteBounds="3.5, 28.75, 2, 3.5016097005208344">
+      <DataClassMoniker Name="/SeaModelDataContext/AspNetUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e098e382-aecd-4d34-bec0-1dacfee25a78" absoluteBounds="3.515, 29.21, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.44621064828726 : 1.94399251302083); (1.44621064828726 : 2.19399251302083); (2.06825551131811 : 2.19399251302083); (2.06825551131811 : 1.94399251302083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetVirtualRole/AspNetVirtualRole_AspNetVirtualRole" />
+      <nodes>
+        <classShapeMoniker Id="3fa03401-852e-4ae2-b714-731880fe7b6a" />
+        <classShapeMoniker Id="3fa03401-852e-4ae2-b714-731880fe7b6a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 18.09375); (8.60416666666667 : 18.09375 : JumpStart); (8.77083333333333 : 18.09375 : JumpEnd); (9.46875 : 18.09375); (9.46875 : 20.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetAssessmentType/AspNetAssessmentType_AspNetAssessment" />
+      <nodes>
+        <classShapeMoniker Id="bc0f7137-88ae-4f3f-bbb0-b178ca0b5984" />
+        <classShapeMoniker Id="378368dd-342f-4726-a1f0-df3030ed3ade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.09375 : 28.875); (9.09375 : 27.5473453776042); (11.0416641666667 : 27.5473453776042 : JumpStart); (11.2083308333333 : 27.5473453776042 : JumpEnd); (11.3854166666667 : 27.5473453776042 : JumpStart); (11.5520833333333 : 27.5473453776042 : JumpEnd); (12.2916666666667 : 27.5473453776042 : JumpStart); (12.5833333333333 : 27.5473453776042 : JumpEnd); (12.75 : 27.5473453776042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranch_Class/AspNetBranch_Class_AspNetBranchClass_Section" />
+      <nodes>
+        <classShapeMoniker Id="0a004d1d-a074-4934-8673-a98946296470" />
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 42.001509152494); (8.8125 : 41.439009152494); (8.8125 : 36.4142976888021); (9 : 36.4142976888021)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranch/AspNetBranch_AspNetBranch_Admin" />
+      <nodes>
+        <classShapeMoniker Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" />
+        <classShapeMoniker Id="e845baca-15b0-47f1-a26c-474694bf1bf6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.20167512019231 : 42); (8.625 : 41.5766751201923); (8.625 : 29.8565991210938); (9 : 29.8565991210938)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranch/AspNetBranch_AspNetBranch_Class" />
+      <nodes>
+        <classShapeMoniker Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" />
+        <classShapeMoniker Id="0a004d1d-a074-4934-8673-a98946296470" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 16.6416648666366); (8.6875 : 17.0791648666366); (8.6875 : 29.3345475605469); (9 : 29.3345475605469)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetClass/AspNetClass_AspNetBranch_Class" />
+      <nodes>
+        <classShapeMoniker Id="501594d3-cf98-417a-a6cd-9980de095e58" />
+        <classShapeMoniker Id="0a004d1d-a074-4934-8673-a98946296470" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 15.34375); (12.375 : 15.34375); (12.375 : 29.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetClass/AspNetClass_AspNetClass_Course" />
+      <nodes>
+        <classShapeMoniker Id="501594d3-cf98-417a-a6cd-9980de095e58" />
+        <classShapeMoniker Id="42420649-2679-4f75-9643-d9abf8d17c31" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.95242346379207 : 16.7035953776042); (6.95242346379207 : 16.9535953776042); (7.56174684745593 : 16.9535953776042); (7.56174684745593 : 16.7035953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetClass/AspNetClass_AspNetClass" />
+      <nodes>
+        <classShapeMoniker Id="501594d3-cf98-417a-a6cd-9980de095e58" />
+        <classShapeMoniker Id="501594d3-cf98-417a-a6cd-9980de095e58" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.9526421386719 : 32.5); (11.375 : 32.0776421386719); (11.375 : 30.2604484049479); (11.4791666666667 : 30.2604484049479 : JumpStart); (11.6458333333333 : 30.2604484049479 : JumpEnd); (11.75 : 30.2604484049479)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetClass_Course" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="42420649-2679-4f75-9643-d9abf8d17c31" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 33.3181469726563); (11.4166666666667 : 33.3181469726563 : JumpStart); (11.6458333333333 : 33.3181469726563 : JumpEnd); (11.75 : 33.3181469726563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetCoursePackage" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="4f8b6f80-53d3-4634-b1d4-ec30df840ae4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 33.2892976888021); (8.54166666666667 : 33.2892976888021 : JumpStart); (8.70833333333333 : 33.2892976888021 : JumpEnd); (9 : 33.2892976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetDepartment/AspNetDepartment_AspNetCourse" />
+      <nodes>
+        <classShapeMoniker Id="9f04fa8c-f346-4335-add7-e7e691e760a0" />
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 42.0615374615385); (11.5625 : 41.4990374615385); (11.5625 : 27.9535953776042); (11.875 : 27.9535953776042); (11.25 : 27.3285953776042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetEmployee/AspNetEmployee_AspNetAccountant" />
+      <nodes>
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+        <classShapeMoniker Id="555145c9-2256-45ab-b1df-71004dbe52dd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 43.0611760009014); (9 : 43.0611760009014)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranch/AspNetBranch_AspNetEmployee" />
+      <nodes>
+        <classShapeMoniker Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" />
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 46.0969962565104); (9 : 46.0969962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetEmployeePosition/AspNetEmployeePosition_AspNetEmployee" />
+      <nodes>
+        <classShapeMoniker Id="3783fc75-c092-4416-9677-f8980ef713ac" />
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 47.6882641601563); (9 : 47.6882641601563)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetGender/AspNetGender_AspNetEmployee" />
+      <nodes>
+        <classShapeMoniker Id="2f8362ce-660a-4ba5-82a1-2c05415b8d1d" />
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 49.9719962565104); (9.38541416666667 : 49.9719962565104 : JumpStart); (9.55208083333333 : 49.9719962565104 : JumpEnd); (10 : 49.9719962565104); (10 : 48.0015283203125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetNationality/AspNetNationality_AspNetEmployee" />
+      <nodes>
+        <classShapeMoniker Id="a1ec682b-0b9f-4a7e-8b18-061c52c42294" />
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 16.2219962565104); (12.2916666666667 : 16.2219962565104 : JumpStart); (12.4583333333333 : 16.2219962565104 : JumpEnd); (12.5 : 16.2219962565104); (12.5 : 29.125); (12.4583333333333 : 29.125 : JumpStart); (12.2916666666667 : 29.125 : JumpEnd); (11.6458333333333 : 29.125 : JumpStart); (11.4791666666667 : 29.125 : JumpEnd); (11.25 : 29.125); (11.25 : 32.25); (11.4166666666667 : 32.25 : JumpStart); (11.6458333333333 : 32.25 : JumpEnd); (12.75 : 32.25); (12.75 : 32.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetPackage/AspNetPackage_AspNetCoursePackage" />
+      <nodes>
+        <classShapeMoniker Id="a7d54eaa-cc05-488d-83d9-799481ef38c8" />
+        <classShapeMoniker Id="4f8b6f80-53d3-4634-b1d4-ec30df840ae4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 51.8469962565104); (9.4687475 : 51.8469962565104); (9.4687475 : 48.0015283203125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetReligion/AspNetReligion_AspNetEmployee" />
+      <nodes>
+        <classShapeMoniker Id="fc15e8ad-f92f-4adc-b2c1-6cdd2d6d8e3f" />
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.65625 : 19.4439925130208); (11.65625 : 27.4379678776042); (12.2916666666667 : 27.4379678776042 : JumpStart); (12.5833333333333 : 27.4379678776042 : JumpEnd); (12.75 : 27.4379678776042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSection/AspNetSection_AspNetBranchClass_Section" />
+      <nodes>
+        <classShapeMoniker Id="64718ae9-621e-45ea-991e-cf08c49f2fa8" />
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 20.0289602129407); (5.875 : 20.4039602129407); (5.875 : 28.5); (6.07291666666667 : 28.5 : JumpStart); (6.23958333333333 : 28.5 : JumpEnd); (8.62650915249399 : 28.5); (8.62857443490112 : 28.5020652824071 : JumpStart); (8.74642556509888 : 28.6199164126049 : JumpEnd); (9.00150915249399 : 28.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetBranch_Class" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="0a004d1d-a074-4934-8673-a98946296470" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.05692307692308 : 20.0304996744792); (4.05692307692308 : 20.2804996744792); (4.5 : 20.2804996744792); (4.5 : 20.0304996744792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetSession" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 25.5); (1.75 : 18.9527498372396); (3.5 : 18.9527498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStatus/AspNetStatus_AspNetSession" />
+      <nodes>
+        <classShapeMoniker Id="6548f9a2-683a-40e4-9eaf-4b0afd80e422" />
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.28125 : 27.7035953776042); (14.28125 : 28.78125); (15.0416666666667 : 28.78125 : JumpStart); (15.4270833333333 : 28.78125 : JumpEnd); (15.5 : 28.78125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section/AspNetBranchClass_Section_AspNetStudent_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+        <classShapeMoniker Id="c56ed81a-3497-4b76-8948-a25101ce0807" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 32.5437139489183); (11.1062139489183 : 32.4375); (11.4166666666667 : 32.4375 : JumpStart); (11.6458333333333 : 32.4375 : JumpEnd); (12.6666666666667 : 32.4375 : JumpStart); (12.8333333333333 : 32.4375 : JumpEnd); (15.1666666666667 : 32.4375 : JumpStart); (15.5208333333333 : 32.4375 : JumpEnd); (16.5 : 32.4375); (16.5 : 30.0208968098958)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetStudent_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="c56ed81a-3497-4b76-8948-a25101ce0807" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 20.0304996744792); (4.5 : 25.75); (5.75 : 25.75); (5.75 : 28.625); (6.07291666666667 : 28.625 : JumpStart); (6.23958333333333 : 28.625 : JumpEnd); (8.60416666666667 : 28.625 : JumpStart); (8.83484248582732 : 28.625 : JumpEnd); (9.01041666666667 : 28.625 : JumpStart); (9.17708333333333 : 28.625 : JumpEnd); (11.0416641666667 : 28.625 : JumpStart); (11.2083308333333 : 28.625 : JumpEnd); (11.4791666666667 : 28.625 : JumpStart); (11.6458333333333 : 28.625 : JumpEnd); (12.2916666666667 : 28.625 : JumpStart); (12.5833333333333 : 28.625 : JumpEnd); (14.1979166666667 : 28.625 : JumpStart); (14.3645833333333 : 28.625 : JumpEnd); (15.125 : 28.625); (15.125 : 29.4323254049479); (15.2604166666667 : 29.4323254049479 : JumpStart); (15.4270833333333 : 29.4323254049479 : JumpEnd); (15.5 : 29.4323254049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetStudent_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="c56ed81a-3497-4b76-8948-a25101ce0807" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 32.53125); (11.4166666666667 : 32.53125 : JumpStart); (11.6458333333333 : 32.53125 : JumpEnd); (12.6666666666667 : 32.53125 : JumpStart); (12.8333333333333 : 32.53125 : JumpEnd); (15.1666666666667 : 32.53125 : JumpStart); (15.5208333333333 : 32.53125 : JumpEnd); (18.0416666666667 : 32.53125 : JumpStart); (18.2083333333333 : 32.53125 : JumpEnd); (18.8854141666667 : 32.53125 : JumpStart); (19.0520808333333 : 32.53125 : JumpEnd); (19.5 : 32.53125); (19.5 : 30.2131982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetStudent_History" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="375721c9-c80e-4970-bae3-cc1e7db58138" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.75 : 27.6768796865986); (15.125 : 28.0518796865986); (15.125 : 27.875); (15.3541666666667 : 27.875 : JumpStart); (15.5208333333333 : 27.875 : JumpEnd); (18.125 : 27.875); (18.1910744349011 : 27.9410744349011 : JumpStart); (18.3089255650989 : 28.0589255650989 : JumpEnd); (18.5 : 28.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section/AspNetBranchClass_Section_AspNetStudent_History" />
+      <nodes>
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+        <classShapeMoniker Id="375721c9-c80e-4970-bae3-cc1e7db58138" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 18.9207281064703); (6 : 18.9207281064703); (6 : 28.125); (6.07291666666667 : 28.125 : JumpStart); (6.23958333333333 : 28.125 : JumpEnd); (8.60416666666667 : 28.125 : JumpStart); (8.77083333333333 : 28.125 : JumpEnd); (9.01041666666667 : 28.125 : JumpStart); (9.17708333333333 : 28.125 : JumpEnd); (11.0416641666667 : 28.125 : JumpStart); (11.2083308333333 : 28.125 : JumpEnd); (11.4791666666667 : 28.125 : JumpStart); (11.6458333333333 : 28.125 : JumpEnd); (12.2916666666667 : 28.125 : JumpStart); (12.5833333333333 : 28.125 : JumpEnd); (14.1979166666667 : 28.125 : JumpStart); (14.3645833333333 : 28.125 : JumpEnd); (15.092929505609 : 28.125 : JumpStart); (15.2708333333333 : 28.125 : JumpEnd); (15.3541666666667 : 28.125 : JumpStart); (15.5208333333333 : 28.125 : JumpEnd); (17.5416666666667 : 28.125 : JumpStart); (17.7083333333333 : 28.125 : JumpEnd); (18.0416666666667 : 28.125 : JumpStart); (18.4583333333333 : 28.125 : JumpEnd); (19.531252 : 28.125); (19.531252 : 28.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetStudent_History" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="375721c9-c80e-4970-bae3-cc1e7db58138" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 22.6162019856771); (11.5729166666667 : 22.6162019856771 : JumpStart); (11.7395833333333 : 22.6162019856771 : JumpEnd); (12.2916666666667 : 22.6162019856771 : JumpStart); (12.5833333333333 : 22.6162019856771 : JumpEnd); (16.4166666666667 : 22.6162019856771 : JumpStart); (16.5833333333333 : 22.6162019856771 : JumpEnd); (18.25 : 22.6162019856771)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetAssessment/AspNetAssessment_AspNetStudentAssessment" />
+      <nodes>
+        <classShapeMoniker Id="378368dd-342f-4726-a1f0-df3030ed3ade" />
+        <classShapeMoniker Id="23c0a1a0-1578-4cb5-8e38-8697617ad847" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 25.5); (2.2812525 : 23.6290511067708); (4.41666666666667 : 23.6290511067708 : JumpStart); (4.58333333333333 : 23.6290511067708 : JumpEnd); (5.79166666666667 : 23.6290511067708 : JumpStart); (6.08333333333333 : 23.6290511067708 : JumpEnd); (8.60416666666667 : 23.6290511067708 : JumpStart); (8.77083333333333 : 23.6290511067708 : JumpEnd); (11.5729166666667 : 23.6290511067708 : JumpStart); (11.7395833333333 : 23.6290511067708 : JumpEnd); (12.2916666666667 : 23.6290511067708 : JumpStart); (12.5833333333333 : 23.6290511067708 : JumpEnd); (16.4166666666667 : 23.6290511067708 : JumpStart); (16.5833333333333 : 23.6290511067708 : JumpEnd); (17.7916666666667 : 23.6290511067708 : JumpStart); (17.9583333333333 : 23.6290511067708 : JumpEnd); (18.25 : 23.6290511067708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStatus/AspNetStatus_AspNetStudentAssessment" />
+      <nodes>
+        <classShapeMoniker Id="6548f9a2-683a-40e4-9eaf-4b0afd80e422" />
+        <classShapeMoniker Id="23c0a1a0-1578-4cb5-8e38-8697617ad847" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.5 : 28.25); (17.875 : 27.875); (17.875 : 23.122626546224); (18.25 : 23.122626546224)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStudent_Enrollment/AspNetStudent_Enrollment_AspNetStudentAssessment" />
+      <nodes>
+        <classShapeMoniker Id="c56ed81a-3497-4b76-8948-a25101ce0807" />
+        <classShapeMoniker Id="23c0a1a0-1578-4cb5-8e38-8697617ad847" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 39.9319477421875); (11.4791666666667 : 39.9319477421875 : JumpStart); (11.6458333333333 : 39.9319477421875 : JumpEnd); (12.6666666666667 : 39.9319477421875 : JumpStart); (12.8333333333333 : 39.9319477421875 : JumpEnd); (15.25 : 39.9319477421875); (15.25 : 30.3958968098958); (15.2604166666667 : 30.3958968098958 : JumpStart); (15.5208333333333 : 30.3958968098958 : JumpEnd); (15.968748 : 30.3958968098958); (15.968748 : 30.0208968098958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStudent/AspNetStudent_AspNetStudent_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+        <classShapeMoniker Id="c56ed81a-3497-4b76-8948-a25101ce0807" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 39.5677690598958); (11.4791666666667 : 39.5677690598958 : JumpStart); (11.6458333333333 : 39.5677690598958 : JumpEnd); (12.6666666666667 : 39.5677690598958 : JumpStart); (12.8333333333333 : 39.5677690598958 : JumpEnd); (15.1666666666667 : 39.5677690598958 : JumpStart); (15.3333333333333 : 39.5677690598958 : JumpEnd); (16.4166666666667 : 39.5677690598958 : JumpStart); (16.5833333333333 : 39.5677690598958 : JumpEnd); (18.9687475 : 39.5677690598958); (18.9687475 : 30.2131982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStudent/AspNetStudent_AspNetStudent_History" />
+      <nodes>
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+        <classShapeMoniker Id="375721c9-c80e-4970-bae3-cc1e7db58138" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 42.0800370821815); (8.71875 : 41.6112870821815); (8.71875 : 39.4239005533854); (8.72916666666667 : 39.4239005533854 : JumpStart); (8.89583333333333 : 39.4239005533854 : JumpEnd); (9 : 39.4239005533854)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranch/AspNetBranch_AspNetStudent" />
+      <nodes>
+        <classShapeMoniker Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" />
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 36.4232367741887); (8.56607443490112 : 36.7393112090898 : JumpStart); (8.68392556509888 : 36.8571623392876 : JumpEnd); (8.71875 : 36.8919867741887); (8.71875 : 38.8056982766927); (8.72916666666667 : 38.8056982766927 : JumpStart); (8.89583333333333 : 38.8056982766927 : JumpEnd); (9 : 38.8056982766927)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetParent/AspNetParent_AspNetStudent" />
+      <nodes>
+        <classShapeMoniker Id="465bf610-333d-4331-9c22-188f6bd1210a" />
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.75 : 27.6987371610577); (15.1285744349011 : 28.0773115959588 : JumpStart); (15.2464255650989 : 28.1951627261566 : JumpEnd); (15.34375 : 28.2924871610577); (15.34375 : 33.3181469726563); (15.5 : 33.3181469726563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section/AspNetBranchClass_Section_AspNetStudentSection" />
+      <nodes>
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+        <classShapeMoniker Id="68737e53-7b72-4c79-8677-d439f670aeb6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 40.2961269244792); (11.4791666666667 : 40.2961269244792 : JumpStart); (11.6458333333333 : 40.2961269244792 : JumpEnd); (12.6666666666667 : 40.2961269244792 : JumpStart); (12.8333333333333 : 40.2961269244792 : JumpEnd); (16.5 : 40.2961269244792); (16.5 : 34.0112939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStudent/AspNetStudent_AspNetStudentSection" />
+      <nodes>
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+        <classShapeMoniker Id="68737e53-7b72-4c79-8677-d439f670aeb6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 32.5133563455028); (11.1071063455028 : 32.40625); (11.4166666666667 : 32.40625 : JumpStart); (11.6458333333333 : 32.40625 : JumpEnd); (12.6666666666667 : 32.40625 : JumpStart); (12.8333333333333 : 32.40625 : JumpEnd); (15.1875 : 32.40625); (15.1875 : 27.6797900152744); (15.5 : 27.3672900152744)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetTeacher_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="1e99057a-a5da-4775-8a2c-1bd5e47a9336" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.75 : 26.7291959049479); (15.5 : 26.7291959049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section/AspNetBranchClass_Section_AspNetTeacher_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+        <classShapeMoniker Id="1e99057a-a5da-4775-8a2c-1bd5e47a9336" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 19.7364738629808); (5.91666666666667 : 19.7364738629808 : JumpStart); (6.08333333333333 : 19.7364738629808 : JumpEnd); (8.60416666666667 : 19.7364738629808 : JumpStart); (8.77083333333333 : 19.7364738629808 : JumpEnd); (9.38541666666667 : 19.7364738629808 : JumpStart); (9.55208333333333 : 19.7364738629808 : JumpEnd); (11.5729166666667 : 19.7364738629808 : JumpStart); (11.7395833333333 : 19.7364738629808 : JumpEnd); (12.2916666666667 : 19.7364738629808 : JumpStart); (12.5833333333333 : 19.7364738629808 : JumpEnd); (16.5 : 19.7364738629808); (16.5 : 25.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetTeacher_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="1e99057a-a5da-4775-8a2c-1bd5e47a9336" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 32.5133563455028); (11.3883563455028 : 32.125); (11.4166666666667 : 32.125 : JumpStart); (11.6458333333333 : 32.125 : JumpEnd); (15.1041666666667 : 32.125 : JumpStart); (15.5208333333333 : 32.125 : JumpEnd); (16.4166666666667 : 32.125 : JumpStart); (16.5833333333333 : 32.125 : JumpEnd); (18.0416666666667 : 32.125 : JumpStart); (18.2083333333333 : 32.125 : JumpEnd); (18.25 : 32.125); (18.25 : 27.7464205970553); (18.5332223548678 : 27.4631982421875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetCourse/AspNetCourse_AspNetTeacher_History" />
+      <nodes>
+        <classShapeMoniker Id="4e4d60f9-4b67-4f11-b602-c54d5e051709" />
+        <classShapeMoniker Id="7deac230-3512-4253-ab73-0aef7eabe313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 26.125); (13.75 : 25.53125); (16.4166666666667 : 25.53125 : JumpStart); (16.5833333333333 : 25.53125 : JumpEnd); (17.7916666666667 : 25.53125 : JumpStart); (17.9583333333333 : 25.53125 : JumpEnd); (18.5 : 25.53125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetBranchClass_Section/AspNetBranchClass_Section_AspNetTeacher_History" />
+      <nodes>
+        <classShapeMoniker Id="7b469ff7-9f97-4c01-99b0-f19b84f64da2" />
+        <classShapeMoniker Id="7deac230-3512-4253-ab73-0aef7eabe313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 19.8827170379607); (5.91666666666667 : 19.8827170379607 : JumpStart); (6.08333333333333 : 19.8827170379607 : JumpEnd); (8.60416666666667 : 19.8827170379607 : JumpStart); (8.77083333333333 : 19.8827170379607 : JumpEnd); (9.38541666666667 : 19.8827170379607 : JumpStart); (9.55208333333333 : 19.8827170379607 : JumpEnd); (11.5729166666667 : 19.8827170379607 : JumpStart); (11.7395833333333 : 19.8827170379607 : JumpEnd); (12.2916666666667 : 19.8827170379607 : JumpStart); (12.5833333333333 : 19.8827170379607 : JumpEnd); (16.4166666666667 : 19.8827170379607 : JumpStart); (16.5833333333333 : 19.8827170379607 : JumpEnd); (20.40625 : 19.8827170379607); (20.40625 : 25.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetTeacher_History" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="7deac230-3512-4253-ab73-0aef7eabe313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 37.6298562165465); (14.0986062165465 : 37.28125); (15.1666666666667 : 37.28125 : JumpStart); (15.3333333333333 : 37.28125 : JumpEnd); (15.4375 : 37.28125); (15.4375 : 27.4883648328325); (15.5299680229367 : 27.3958968098958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetTeacher/AspNetTeacher_AspNetTeacher_Enrollment" />
+      <nodes>
+        <classShapeMoniker Id="a82ebac2-9bf0-4dea-928a-14e3c3d6a703" />
+        <classShapeMoniker Id="1e99057a-a5da-4775-8a2c-1bd5e47a9336" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.75 : 37.6517136910056); (13.9017136910056 : 37.5); (15.1666666666667 : 37.5 : JumpStart); (15.3333333333333 : 37.5 : JumpEnd); (16.4166666666667 : 37.5 : JumpStart); (16.5833333333333 : 37.5 : JumpEnd); (18.125 : 37.5); (18.125 : 27.8064850398137); (18.5 : 27.4314850398137)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetTeacher/AspNetTeacher_AspNetTeacher_History" />
+      <nodes>
+        <classShapeMoniker Id="a82ebac2-9bf0-4dea-928a-14e3c3d6a703" />
+        <classShapeMoniker Id="7deac230-3512-4253-ab73-0aef7eabe313" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11 : 45.0627853909255); (12.75 : 45.0627853909255); (12.75 : 39.2035953776042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetEmployee/AspNetEmployee_AspNetTeacher" />
+      <nodes>
+        <classShapeMoniker Id="d1a1a930-c0dc-491d-af43-6b77f052801a" />
+        <classShapeMoniker Id="a82ebac2-9bf0-4dea-928a-14e3c3d6a703" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 21.6065991210938); (8.60416666666667 : 21.6065991210938 : JumpStart); (8.77083333333333 : 21.6065991210938 : JumpEnd); (9 : 21.6065991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetTerm/AspNetTerm_AspNetAssessment" />
+      <nodes>
+        <classShapeMoniker Id="aef89a3b-ab9c-46c6-b731-08fd54b121cb" />
+        <classShapeMoniker Id="378368dd-342f-4726-a1f0-df3030ed3ade" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 20.0304996744792); (5.0312525 : 21.6065991210938); (5.79166666666667 : 21.6065991210938 : JumpStart); (6.08333333333333 : 21.6065991210938 : JumpEnd); (6.25 : 21.6065991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetSession/AspNetSession_AspNetTerm" />
+      <nodes>
+        <classShapeMoniker Id="e2d445cc-35e0-4bde-9b38-70934d515661" />
+        <classShapeMoniker Id="aef89a3b-ab9c-46c6-b731-08fd54b121cb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 27.1618455607472); (5.69107443490112 : 27.3529199956483 : JumpStart); (5.80892556509888 : 27.4707711258461 : JumpEnd); (5.81607443490112 : 27.4779199956483 : JumpStart); (6.05892556509888 : 27.7207711258461 : JumpEnd); (6.15625 : 27.8180955607472); (6.15625 : 29.90625); (6.25 : 30)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetRole/AspNetRole_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="a7685b91-fbce-41ad-821b-222730347303" />
+        <classShapeMoniker Id="59c56538-0eae-4d13-9271-0cfa0f4eb14c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 31.7540511067708); (8.54166666666667 : 31.7540511067708 : JumpStart); (8.70833333333333 : 31.7540511067708 : JumpEnd); (11.1249975 : 31.7540511067708); (11.1249975 : 27.3285953776042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetAccountant" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="555145c9-2256-45ab-b1df-71004dbe52dd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 32.2516097005208); (4.5 : 36.7892976888021); (4.94791916666667 : 36.7892976888021 : JumpStart); (5.11458583333333 : 36.7892976888021 : JumpEnd); (5.21354541666667 : 36.7892976888021 : JumpStart); (5.38021208333333 : 36.7892976888021 : JumpEnd); (8.53272758128005 : 36.7892976888021 : JumpStart); (8.70833333333333 : 36.7892976888021 : JumpEnd); (8.72916666666667 : 36.7892976888021 : JumpStart); (8.89583333333333 : 36.7892976888021 : JumpEnd); (9 : 36.7892976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetBranch_Admin" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="e845baca-15b0-47f1-a26c-474694bf1bf6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 32.2516097005208); (5.0312525 : 42.9815991210938); (6.25 : 42.9815991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetBranch" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="8b6cc245-b044-40ae-bec3-9f11de72c8ea" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.9687475 : 32.2516097005208); (3.9687475 : 33.2892976888021); (4.15104041666667 : 33.2892976888021 : JumpStart); (4.31770708333333 : 33.2892976888021 : JumpEnd); (4.41666666666667 : 33.2892976888021 : JumpStart); (4.58333333333333 : 33.2892976888021 : JumpEnd); (4.68229291666667 : 33.2892976888021 : JumpStart); (4.84895958333333 : 33.2892976888021 : JumpEnd); (4.94791916666667 : 33.2892976888021 : JumpStart); (5.11458583333333 : 33.2892976888021 : JumpEnd); (5.21354541666667 : 33.2892976888021 : JumpStart); (5.38021208333333 : 33.2892976888021 : JumpEnd); (6.25 : 33.2892976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetDepartment" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="9f04fa8c-f346-4335-add7-e7e691e760a0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.29687875 : 32.2516097005208); (5.29687875 : 40.3854484049479); (6.25 : 40.3854484049479)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetLog" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="3b714b50-2f8e-49e6-8687-939580d0b419" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.76562625 : 32.2516097005208); (4.76562625 : 35.6642976888021); (4.94791916666667 : 35.6642976888021 : JumpStart); (5.11458583333333 : 35.6642976888021 : JumpEnd); (5.21354541666667 : 35.6642976888021 : JumpStart); (5.38021208333333 : 35.6642976888021 : JumpEnd); (6.25 : 35.6642976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetParent" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="465bf610-333d-4331-9c22-188f6bd1210a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.23437375 : 32.2516097005208); (4.23437375 : 39.1147994150391); (4.94791916666667 : 39.1147994150391 : JumpStart); (5.11458583333333 : 39.1147994150391 : JumpEnd); (5.21354541666667 : 39.1147994150391 : JumpStart); (5.38021208333333 : 39.1147994150391 : JumpEnd); (8.54166666666667 : 39.1147994150391 : JumpStart); (8.70833333333333 : 39.1147994150391 : JumpEnd); (8.72916666666667 : 39.1147994150391 : JumpStart); (8.89583333333333 : 39.1147994150391 : JumpEnd); (9 : 39.1147994150391)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetStudent" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="edeb6c7a-6310-4a09-9b2b-5ee32208a71a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 30.2207735533854); (6 : 30.2207735533854); (6 : 31.4439925130208); (8.54166666666667 : 31.4439925130208 : JumpStart); (8.70833333333333 : 31.4439925130208 : JumpEnd); (11.0416641666667 : 31.4439925130208 : JumpStart); (11.4583333333333 : 31.4439925130208 : JumpEnd); (11.5 : 31.4439925130208); (11.5 : 37.25); (12.75 : 37.25); (12.75 : 37.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetTeacher" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="a82ebac2-9bf0-4dea-928a-14e3c3d6a703" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.70312125 : 32.2516097005208); (3.70312125 : 37.9142976888021); (4.15104041666667 : 37.9142976888021 : JumpStart); (4.31770708333333 : 37.9142976888021 : JumpEnd); (4.94791916666667 : 37.9142976888021 : JumpStart); (5.11458583333333 : 37.9142976888021 : JumpEnd); (5.21354541666667 : 37.9142976888021 : JumpStart); (5.38021208333333 : 37.9142976888021 : JumpEnd); (6.25 : 37.9142976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetUserClaim" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="bfc950cd-5591-4d4f-ad32-cbce58c94b5b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 28.8115374615385); (5.9375 : 28.3740374615385); (5.9375 : 26.4431469726563); (6.25 : 26.4431469726563)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetUserLogin" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="0f9be86a-6622-402f-bb29-19b9ca346042" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 30.7698830332031); (5.91666666666667 : 30.7698830332031 : JumpStart); (6.08333333333333 : 30.7698830332031 : JumpEnd); (6.25 : 30.7698830332031)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetUser/AspNetUser_AspNetUserRole" />
+      <nodes>
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+        <classShapeMoniker Id="59c56538-0eae-4d13-9271-0cfa0f4eb14c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 26.6939925130208); (1.75 : 30.5008048502604); (3.5 : 30.5008048502604)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/SeaModelDataContext/AspNetStatus/AspNetStatus_AspNetUser" />
+      <nodes>
+        <classShapeMoniker Id="6548f9a2-683a-40e4-9eaf-4b0afd80e422" />
+        <classShapeMoniker Id="5cdd5a44-38a1-4eb3-a04d-d799029720cd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
