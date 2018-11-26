@@ -8,7 +8,7 @@ namespace LinqPractice
 {
     static class Vagabond
     {
-        public static void Run()
+        public static void Début()
         {
             //LookupDemo();
             LookupDemo2();
