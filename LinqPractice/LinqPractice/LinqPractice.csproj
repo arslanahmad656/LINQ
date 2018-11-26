@@ -199,6 +199,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EfEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="L2SModel\L2sEntities.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>L2sEntities.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionTechniques.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -217,6 +222,14 @@
     </EntityDeploy>
     <None Include="EFModel\EfEntities.edmx.diagram">
       <DependentUpon>EfEntities.edmx</DependentUpon>
+    </None>
+    <None Include="L2SModel\L2sEntities.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>L2sEntities.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="L2SModel\L2sEntities.dbml.layout">
+      <DependentUpon>L2sEntities.dbml</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -254,8 +267,6 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="L2SModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
