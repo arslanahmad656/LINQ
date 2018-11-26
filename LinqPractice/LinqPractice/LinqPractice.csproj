@@ -70,6 +70,135 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConstruireQuestions.cs" />
+    <Compile Include="EFModel\AspNetAccountant.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetAssessment.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetAssessmentType.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetBranch.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetBranchClass_Sections.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetBranch_Admins.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetBranch_Class.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetClass.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetClass_Courses.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetCours.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetCoursePackage.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetDepartment.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetEmployee.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetEmployeePosition.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetGender.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetLog.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetNationality.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetPackage.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetParent.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetReligion.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetRole.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetSection.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetSession.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStatu.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStudent.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStudentAssessment.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStudentSection.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStudent_Enrollments.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetStudent_Histories.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetTeacher.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetTeacher_Enrollments.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetTeacher_Histories.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetTerm.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetUser.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetUserClaim.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetUserLogin.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\AspNetVirtualRole.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\C__MigrationHistory.cs">
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\EfEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EfEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\EfEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EfEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EFModel\EfEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EfEntities.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionTechniques.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,6 +211,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EntityDeploy Include="EFModel\EfEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EfEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="EFModel\EfEntities.edmx.diagram">
+      <DependentUpon>EfEntities.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +232,16 @@
       <DependentUpon>aspnet-SeaVersion_2_20170818051512.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="EFModel\EfEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EfEntities.edmx</DependentUpon>
+      <LastGenOutput>EfEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="EFModel\EfEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EfEntities.edmx</DependentUpon>
+      <LastGenOutput>EfEntities.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -107,6 +253,9 @@
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="L2SModel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
