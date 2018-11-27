@@ -18,8 +18,8 @@ namespace LinqPractice
     {
         public static void Début()
         {
-            //GettingQueryableObjects_TypedContexts();
-            GettingQueryableObjects_Manual();
+            GettingQueryableObjects_TypedContexts();
+            //GettingQueryableObjects_Manual();
         }
 
         static void GettingQueryableObjects_Manual()

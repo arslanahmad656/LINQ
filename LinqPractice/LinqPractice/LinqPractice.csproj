@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="ConstruireQuestions.cs" />
     <Compile Include="BaseDeDonnéesDémonstrateur.cs" />
+    <Compile Include="DiverExemples.cs" />
     <Compile Include="DTO\AspNetStudent.cs" />
     <Compile Include="DTO\ManualDataContext.cs" />
     <Compile Include="Program.cs" />

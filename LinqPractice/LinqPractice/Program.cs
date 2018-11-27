@@ -13,7 +13,8 @@ namespace LinqPractice
             //Vagabond.Début();
             //ConstruireQuestions.Début();
             //ProjectionTechniques.Début();
-            BaseDeDonnéesDémonstrateur.Début();
+            //BaseDeDonnéesDémonstrateur.Début();
+            DiverExemples.Début();
             Console.WriteLine("\n\nTâche achévee");
             Console.WriteLine("Appuyez sur une touché pour continuer...");
             Console.ReadKey();
