@@ -71,6 +71,8 @@
   <ItemGroup>
     <Compile Include="ConstruireQuestions.cs" />
     <Compile Include="BaseDeDonnéesDémonstrateur.cs" />
+    <Compile Include="DTO\AspNetStudent.cs" />
+    <Compile Include="DTO\ManualDataContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionTechniques.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
