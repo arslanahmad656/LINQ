@@ -181,6 +181,7 @@
     <Compile Include="EFModel\AspNetVirtualRole.cs">
       <DependentUpon>EfEntities.tt</DependentUpon>
     </Compile>
+    <Compile Include="BaseDeDonnéesDémonstrateur.cs" />
     <Compile Include="EFModel\C__MigrationHistory.cs">
       <DependentUpon>EfEntities.tt</DependentUpon>
     </Compile>
@@ -198,6 +199,9 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EfEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="L2SModel\L2sEntities.cs">
+      <DependentUpon>L2sEntities.dbml</DependentUpon>
     </Compile>
     <Compile Include="L2SModel\L2sEntities.designer.cs">
       <AutoGen>True</AutoGen>
