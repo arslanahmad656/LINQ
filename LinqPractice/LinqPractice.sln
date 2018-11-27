@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPractice", "LinqPractic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDAL", "EfDAL\EfDAL.csproj", "{48EC932F-07F9-419A-ACE8-A54E4A099ADA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LsDAL", "LsDAL\LsDAL.csproj", "{41F063DE-6A99-44EB-BB3E-108094028EC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{48EC932F-07F9-419A-ACE8-A54E4A099ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48EC932F-07F9-419A-ACE8-A54E4A099ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48EC932F-07F9-419A-ACE8-A54E4A099ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F063DE-6A99-44EB-BB3E-108094028EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F063DE-6A99-44EB-BB3E-108094028EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F063DE-6A99-44EB-BB3E-108094028EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F063DE-6A99-44EB-BB3E-108094028EC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

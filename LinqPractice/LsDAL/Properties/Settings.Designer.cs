@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LinqPractice.Properties {
+namespace LsDAL.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -20,6 +20,17 @@ namespace LinqPractice.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.168.9.105;Initial Catalog=aspnet-SeaVersion_2_20170818051512;Pers" +
+            "ist Security Info=True;User ID=sa;Password=webdir123R")]
+        public string aspnet_SeaVersion_2_20170818051512ConnectionString {
+            get {
+                return ((string)(this["aspnet_SeaVersion_2_20170818051512ConnectionString"]));
             }
         }
     }

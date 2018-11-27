@@ -114,6 +114,10 @@
       <Project>{48ec932f-07f9-419a-ace8-a54e4a099ada}</Project>
       <Name>EfDAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LsDAL\LsDAL.csproj">
+      <Project>{41f063de-6a99-44eb-bb3e-108094028ec4}</Project>
+      <Name>LsDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
