@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using LinqPractice.EFModel;
-//using LinqPractice.L2SModel;
-using Ef = LinqPractice.EFModel;
-//using Ls = LinqPractice.L2SModel;
+using EfModel = EfDAL.Models;
+using EfEntities = EfDAL.Models.Entities;
 
 namespace LinqPractice
 {
@@ -24,19 +22,20 @@ namespace LinqPractice
 
             void DemoWithEf()
             {
-                var context = new EfEntities();
-                var students = context.Set<Ef.AspNetStudent>();
-                var students_ = context.AspNetStudents;
+                var efContext = new EfEntities();
+                var students = efContext.Set<EfModel.AspNetStudent>();
+                var students_ = efContext.AspNetStudents;
                 Console.WriteLine($"References equal: {students == students_}");
                 int count = 0;
                 int total = students.Count();
                 foreach (var student in students)
                 {
-                    if (count < 5) 
+                    if (count == 5) 
                     {
                         break;
                     }
                     Console.WriteLine($"{student.Name}, {student.AspNetUser?.Email ?? student.AspNetUser.UserName}");
+                    count++;
                 }
                 if (count < total)
                 {
