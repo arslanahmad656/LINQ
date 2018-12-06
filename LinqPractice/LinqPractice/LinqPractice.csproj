@@ -93,10 +93,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="db\aspnet-SeaVersion_2_20170818051512.mdf">
+    <Content Include="DB\aspnet-SeaVersion_2_20170818051512.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="db\aspnet-SeaVersion_2_20170818051512_log.ldf">
+    <Content Include="DB\aspnet-SeaVersion_2_20170818051512_log.ldf">
       <DependentUpon>aspnet-SeaVersion_2_20170818051512.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
