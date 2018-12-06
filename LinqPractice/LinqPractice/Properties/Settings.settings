@@ -5,10 +5,9 @@
     <Setting Name="DbConnection" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=172.168.9.105;Initial Catalog=aspnet-SeaVersion_2_20170818051512;Persist Security Info=True;User ID=sa;Password=webdir123R&lt;/ConnectionString&gt;
-  &lt;ProviderName /&gt;
+  &lt;ConnectionString&gt;Data Source=172.168.9.101;Initial Catalog=aspnet-SeaVersion_2_20170818051512;Persist Security Info=True;User ID=sa;Password=webdir123R&lt;/ConnectionString&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=172.168.9.105;Initial Catalog=aspnet-SeaVersion_2_20170818051512;Persist Security Info=True;User ID=sa;Password=webdir123R</Value>
+      <Value Profile="(Default)">Data Source=172.168.9.101;Initial Catalog=aspnet-SeaVersion_2_20170818051512;Persist Security Info=True;User ID=sa;Password=webdir123R</Value>
     </Setting>
   </Settings>
 </SettingsFile>

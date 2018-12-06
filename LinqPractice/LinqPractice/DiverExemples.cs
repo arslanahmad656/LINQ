@@ -13,7 +13,38 @@ namespace LinqPractice
         {
             //GetDirectoryItemsQuery();
             //GetDirectoryItemsFluent();
-            EnrollmentCount();
+            //EnrollmentCount();
+            SelectVsSelectMany();
+        }
+
+        static void SelectVsSelectMany()
+        {
+            var source = new[] { "Harry James Potter", "Severus Snivilleus Snape", "Albus Wulfric Perceival Brian Dumbledore", "Dolores Janes Umbrdige", "Minevera McGonagall" };
+            var selected = DemoSelect();
+            Console.WriteLine($"SELECT:");
+            Console.WriteLine($"  Type: {selected.GetType().Name}");
+            Console.WriteLine($"  Count: {(selected as IEnumerable<object>).Count()}");
+            Console.WriteLine($"  Type of a member: {(selected as IEnumerable<object>).First().GetType().Name}");
+
+            var selectedMany = DemoSelectMany();
+            Console.WriteLine($"SELECT MANY:");
+            Console.WriteLine($"  Type: {selectedMany.GetType().Name}");
+            Console.WriteLine($"  Count: {(selectedMany as IEnumerable<object>).Count()}");
+            Console.WriteLine($"  Type of a member: {(selectedMany as IEnumerable<object>).First().GetType().Name}");
+
+            object DemoSelect()
+            {
+                return source
+                    .Select(s => s.Split(' '))
+                    .ToArray();
+            }
+
+            object DemoSelectMany()
+            {
+                return source
+                    .SelectMany(s => s.Split(' '))
+                    .ToArray();
+            }
         }
 
         static void EnrollmentCount()
