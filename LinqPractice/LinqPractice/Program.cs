@@ -14,7 +14,9 @@ namespace LinqPractice
             //ConstruireQuestions.Début();
             //ProjectionTechniques.Début();
             //BaseDeDonnéesDémonstrateur.Début();
-            DiverExemples.Début();
+            //DiverExemples.Début();
+            //ProjectionExemples.Début();
+            JoindreExemples.Début();
             Console.WriteLine("\n\nTâche achévee");
             Console.WriteLine("Appuyez sur une touché pour continuer...");
             Console.ReadKey();

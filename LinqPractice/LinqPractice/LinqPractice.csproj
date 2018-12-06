@@ -74,6 +74,7 @@
     <Compile Include="DiverExemples.cs" />
     <Compile Include="DTO\AspNetStudent.cs" />
     <Compile Include="DTO\ManualDataContext.cs" />
+    <Compile Include="JoindreExemples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionExemples.cs" />
     <Compile Include="ProjectionTechniques.cs" />
