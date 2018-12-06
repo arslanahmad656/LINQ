@@ -15,7 +15,27 @@ namespace LinqPractice
             //GetDirectoryItemsFluent();
             //EnrollmentCount();
             //SelectVsSelectMany();
-            QuerySyntaxVsFluent();
+            //QuerySyntaxVsFluent();
+            ProductUsingSelectMany();
+        }
+
+        static void ProductUsingSelectMany()
+        {
+            string[] source1 = new[] { "a", "b", "c" },
+                source2 = new[] { "i", "ii", "iii" },
+                source3 = new[] { "1", "2", "3" };
+
+            UsingQuerySyntax().ForEach(p => Console.WriteLine(p));
+
+            List<string> UsingQuerySyntax()
+            {
+                return
+                    (from s1 in source1
+                     from s2 in source2
+                     from s3 in source3
+                     select $"({s1}, {s2}, {s3})").ToList();
+                // How to do this simple operation using the fluent syntax?
+            }
         }
 
         static void QuerySyntaxVsFluent()
