@@ -84,6 +84,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Regroupment.cs" />
     <Compile Include="Vagabond.cs" />
   </ItemGroup>
   <ItemGroup>
