@@ -14,7 +14,10 @@ namespace LinqPractice
             //JoinVsSelectMany();
             //LimitingInnerResult();
             //MultiVarJoin();
-            LimitingDeepInnerResult();
+            //LimitingDeepInnerResult();
+            //DemoGroupJoin();
+            //DemoGroupJoinFiltered();
+            DemoGroupJoinFlattened();
         }
 
         static void JoinVsSelectMany()
@@ -29,7 +32,7 @@ namespace LinqPractice
 
             // The results should be the same for both demos
             Console.WriteLine("Using Join:");
-            DemoJoin();
+            DemoJoin(); // this will perform innerjoin
 
             Console.WriteLine();
             Console.WriteLine("Using SelectMany:");
@@ -41,7 +44,7 @@ namespace LinqPractice
                              join e in enrollmentsArr
                              on s.Id equals e.StudentId
                              select $"{s.Name} is enrolled in {e.AspNetCours.Name}";
-                result.Take(10).ToList().ForEach(r => Console.WriteLine(r));
+                result.ToList().ForEach(r => Console.WriteLine(r));
             }
 
             void DemoSelectMany()
@@ -50,7 +53,7 @@ namespace LinqPractice
                              from e in enrollmentsArr
                              where s.Id == e.StudentId
                              select $"{s.Name} is enrolled in {e.AspNetCours.Name}";
-                result.Take(10).ToList().ForEach(r => Console.WriteLine(r));
+                result.ToList().ForEach(r => Console.WriteLine(r));
             }
         }
 
@@ -136,6 +139,93 @@ namespace LinqPractice
                                 .ForEach(e => result.Add($"{s.Name} is enrolled in {e.AspNetCours.Name}")));
 
             result.ForEach(r => Console.WriteLine(r));
+        }
+
+        static void DemoGroupJoin()
+        {
+            // this will perform the outer join without any filtering.
+            // That means that students without any enrollments will also be listed
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+
+            var result = from s in studentsArr
+                         join e in enrollmentsArr
+                         on s.Id equals e.StudentId
+                         into studentCourses
+                         select new
+                         {
+                             Student = s.Name,
+                             Courses = studentCourses.Select(c => c.AspNetCours.Name)
+                         };
+            foreach (var seq in result)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"{seq.Student}:");
+                Console.Write("\t");
+                foreach (var item in seq.Courses)
+                {
+                    Console.Write($"  -{item}");
+                }
+            }
+        }
+
+        static void DemoGroupJoinFiltered()
+        {
+            // Here the students without the courses will filtered out
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+
+            var result = from s in studentsArr
+                         join e in enrollmentsArr
+                         on s.Id equals e.StudentId
+                         into studentCourses
+                         where studentCourses.Any()
+                         select new
+                         {
+                             Student = s.Name,
+                             Courses = studentCourses.Select(c => c.AspNetCours.Name)
+                         };
+            foreach (var seq in result)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"{seq.Student}:");
+                Console.Write("\t");
+                foreach (var item in seq.Courses)
+                {
+                    Console.Write($"  -{item}");
+                }
+            }
+        }
+
+        static void DemoGroupJoinFlattened()
+        {
+            // All the students, irrespective of whether they have any course enrolled, will be enlisted
+
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+
+            var result = from s in studentsArr
+                         join e in enrollmentsArr
+                         on s.Id equals e.StudentId
+                         into studentCourses
+                         from sc in studentCourses.DefaultIfEmpty()
+                         select (s.Name, sc?.AspNetCours?.Name);
+
+            Console.WriteLine("Display Format: (Student Name, Course Name)");
+            foreach (var item in result)
+            {
+                if (item.Item2 == null)
+                {
+                    Console.WriteLine($"{item.Item1} not enrolled.");
+                }
+                else
+                {
+                    Console.WriteLine($"{item.Item1} enrolled in {item.Item2}");
+                }
+            }
         }
     }
 }
