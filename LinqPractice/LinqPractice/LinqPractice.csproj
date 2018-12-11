@@ -73,7 +73,10 @@
     <Compile Include="BaseDeDonnéesDémonstrateur.cs" />
     <Compile Include="DiverExemples.cs" />
     <Compile Include="DTO\AspNetStudent.cs" />
+    <Compile Include="DTO\Class.cs" />
+    <Compile Include="DTO\Course.cs" />
     <Compile Include="DTO\ManualDataContext.cs" />
+    <Compile Include="DTO\Student.cs" />
     <Compile Include="JoindreExemples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionExemples.cs" />
@@ -103,6 +106,7 @@
       <DependentUpon>aspnet-SeaVersion_2_20170818051512.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
