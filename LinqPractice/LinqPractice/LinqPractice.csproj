@@ -78,6 +78,7 @@
     <Compile Include="DTO\ManualDataContext.cs" />
     <Compile Include="DTO\Student.cs" />
     <Compile Include="JoindreExemples.cs" />
+    <Compile Include="MéthodesConversion.cs" />
     <Compile Include="OpérateurSet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProjectionExemples.cs" />

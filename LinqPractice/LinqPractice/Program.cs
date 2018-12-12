@@ -18,7 +18,8 @@ namespace LinqPractice
             //ProjectionExemples.Début();
             //JoindreExemples.Début();
             //Regroupment.Début();
-            OpérateurSet.Début();
+            //OpérateurSet.Début();
+            MéthodesConversion.Début();
             Console.WriteLine("\n\nTâche achévee");
             Console.WriteLine("Appuyez sur une touché pour continuer...");
             Console.ReadKey();
