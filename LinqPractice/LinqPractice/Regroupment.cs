@@ -40,7 +40,11 @@ namespace LinqPractice
             //GroupBySortedAndFiltered();
             //FindMode();
             //GroupByL2S();
-            GroupBySubgroupBy();
+            //GroupBySubgroupBy();  // this one needs correction. There are too many duplicate groups
+            //GetTotalStudentsSubjectWise();
+            //GetTotalStudentsSubjectWiseInEachClass();
+            //GroupByMultiple();
+            GroupByMultiple2();
         }
 
         static void DemoGroupBy()
@@ -197,6 +201,138 @@ namespace LinqPractice
             }
 
             Console.WriteLine("Output written to output.txt");
+        }
+
+        static void GetTotalStudentsSubjectWise()
+        {
+            // Method to Get total number of students in each subject
+
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+            var classCoursesArr = entities.AspNetClass_Courses.ToArray();
+
+            var groups = from s in studentsArr
+                         join e in enrollmentsArr
+                         on s.Id equals e.StudentId
+                         join c in classCoursesArr
+                         on e.CourseId equals c.CourseId
+                         group (s.Name, c.AspNetClass.Name, e.AspNetCours.Name) by e.AspNetCours.Name
+                         into studentClassGroups
+                         select new
+                         {
+                             Course = studentClassGroups.Key,
+                             NumberOfStudents = studentClassGroups.Count()
+                         }
+                         into studentCounts
+                         orderby studentCounts.NumberOfStudents
+                         select studentCounts;
+            Console.WriteLine();
+            Console.WriteLine("  |------------------------------------------------|");
+            Console.WriteLine("  | {0,-25} | {1, -16} |", "COURSE", "NUMBER OF STUDENTS");
+            Console.WriteLine("  |------------------------------------------------|");
+            foreach (var item in groups)
+            {
+                Console.WriteLine($"  | {item.Course,-25} | {item.NumberOfStudents, -18} |");
+            }
+            Console.WriteLine("  |------------------------------------------------|");
+        }
+
+        static void GetTotalStudentsSubjectWiseInEachClass()
+        {
+            // Method to get the total number of students grouped by subjects in each class
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+            var classCoursesArr = entities.AspNetClass_Courses.ToArray();
+
+            Console.WriteLine();
+            var classes = new[] { "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th", };
+            foreach (var @class in /*entities.AspNetClasses.OrderBy(c => c.Id)*/classes)
+            {
+                Console.WriteLine("  |------------------------------------------------|");
+                Console.WriteLine($"  |                     {@class,4}                       |");
+                Console.WriteLine("  |------------------------------------------------|");
+                Console.WriteLine("  | {0,-25} | {1, -16} |", "COURSE", "NUMBER OF STUDENTS");
+                Console.WriteLine("  |------------------------------------------------|");
+                var groups = from s in studentsArr
+                             join e in enrollmentsArr
+                             on s.Id equals e.StudentId
+                             join c in classCoursesArr
+                             on e.CourseId equals c.CourseId
+                             where c.AspNetClass.Name.Equals(@class, StringComparison.OrdinalIgnoreCase)
+                             group (s.Name, c.AspNetClass.Name, e.AspNetCours.Name) by e.AspNetCours.Name
+                             into studentClassGroups
+                             select new
+                             {
+                                 Course = studentClassGroups.Key,
+                                 NumberOfStudents = studentClassGroups.Count()
+                             }
+                             into studentCounts
+                             orderby studentCounts.NumberOfStudents
+                             select studentCounts;
+                foreach (var item in groups)
+                {
+                    Console.WriteLine($"  | {item.Course,-25} | {item.NumberOfStudents,-18} |");
+                }
+                Console.WriteLine("  |------------------------------------------------|");
+                Console.WriteLine();
+                Console.WriteLine();
+            }
+        }
+
+        static void GroupByMultiple()
+        {
+            var names = new[] { "Arslan Ahmad", "Asim Kabir", "Usman Kabir" };
+
+            var result = from n in names
+                         group n by new { FirstLetter = n[0], Length = n.Length };
+            foreach (var item in result)
+            {
+                Console.WriteLine("Key: " + item.Key);
+                foreach (var item2 in item)
+                {
+                    Console.WriteLine(item2);
+                }
+            }
+        }
+
+        static void GroupByMultiple2()
+        {
+            var entities = new Entities();
+            var studentsArr = entities.AspNetStudents.ToArray();
+            var enrollmentsArr = entities.AspNetStudent_Enrollments.ToArray();
+            var classCoursesArr = entities.AspNetClass_Courses.ToArray();
+
+            var result = from s in studentsArr
+                         join e in enrollmentsArr
+                         on s.Id equals e.StudentId
+                         join c in classCoursesArr
+                         on e.CourseId equals c.CourseId
+                         select new
+                         {
+                             Student = s.Name,
+                             Course = c.AspNetCours.Name,
+                             Class = c.AspNetClass.Name
+                         } into scc
+                         group scc by new
+                         {
+                             scc.Course,
+                             scc.Class
+                         }
+                         into groups
+                         orderby groups.Key.Course
+                         select groups;
+            foreach (var group in result)
+            {
+                Console.WriteLine(group.Key);
+                foreach (var member in group)
+                {
+                    Console.WriteLine(member);
+                }
+                Console.WriteLine();
+                Console.WriteLine();
+            }
         }
     }
 }
